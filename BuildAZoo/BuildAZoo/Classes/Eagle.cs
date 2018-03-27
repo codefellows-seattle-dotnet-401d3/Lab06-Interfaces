@@ -4,11 +4,12 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Eagle : Avian
+    class Eagle : Avian, Interfaces.IFly
     {
         public override int NumberOfLegs { get; set; } = 2;
         public override bool Carnivore { get; set; } = true;
         public override bool HasWings { get; set; } = true;
+        public string Name { get; set; } = "eagle";
 
         public override string Eat()
         {
@@ -28,6 +29,11 @@ namespace BuildAZoo.Classes
         public override bool CanFly()
         {
             return true;
+        }
+
+        public string Flying()
+        {
+            return "Soaring majesticly";
         }
     }
 }

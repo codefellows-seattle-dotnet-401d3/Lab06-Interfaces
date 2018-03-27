@@ -4,11 +4,12 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Penguin : Avian
+    class Penguin : Avian, Interfaces.ISwim
     {
         public override int NumberOfLegs { get; set; } = 2;
         public override bool Carnivore { get; set; } = true;
         public override bool HasWings { get; set; } = true;
+        public string Name { get; set; } = "penguin";
 
         public override string Eat()
         {
@@ -28,6 +29,11 @@ namespace BuildAZoo.Classes
         public override bool CanFly()
         {
             return false;
+        }
+
+        public string Swim()
+        {
+            return "Diving deep looking for food";
         }
     }
 }

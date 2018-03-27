@@ -9,6 +9,7 @@ namespace BuildAZoo.Classes
         public override int NumberOfLegs { get; set; } = 2;
         public override bool Carnivore { get; set; } = true;
         public override bool HasWings { get; set; } = true;
+        public string Name { get; set; } = "duck";
 
         public override string Eat()
         {

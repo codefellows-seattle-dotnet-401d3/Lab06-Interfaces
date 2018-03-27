@@ -10,6 +10,7 @@ namespace BuildAZoo.Classes
         public override bool Carnivore { get; set; } = false;
         public override string FurColor { get; set; } = "white";
         public override bool HasHorns { get; set; } = true;
+        public string Name { get; set; } = "rhino";
 
         public override string Eat()
         {

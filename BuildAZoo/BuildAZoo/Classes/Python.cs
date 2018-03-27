@@ -6,6 +6,8 @@ namespace BuildAZoo.Classes
 {
     class Python : Snake
     {
+        public string Name { get; set; } = "python";
+
         public override string Eat()
         {
             return "Eating small rodents";

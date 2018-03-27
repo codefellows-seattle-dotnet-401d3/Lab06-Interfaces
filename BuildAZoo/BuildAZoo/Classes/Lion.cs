@@ -4,12 +4,13 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Lion : Mammal
+    class Lion : Mammal, Interfaces.ISwim
     {
         public override int NumberOfLegs { get; set; } = 4;
         public override bool Carnivore { get; set; } = true;
         public override string FurColor { get; set; } = "yellow";
         public override bool HasHorns { get; set; } = false;
+        public string Name { get; set; } = "lion";
 
         public override string Eat()
         {
@@ -29,6 +30,11 @@ namespace BuildAZoo.Classes
         public override int HaveBabies()
         {
             return 3;
+        }
+
+        public string Swim()
+        {
+            return "Cooling off";
         }
     }
 }

@@ -7,6 +7,7 @@ namespace BuildAZoo.Classes
     class Iguana : Lizard
     {
         public override bool LooksSlimey { get; set; } = false;
+        public string Name { get; set; } = "iguana";
 
         public override string Eat()
         {
