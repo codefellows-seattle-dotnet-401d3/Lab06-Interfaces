@@ -2,8 +2,9 @@
 
 namespace OOP_Examples.Classes.zoo
 {
-    class Dog : Canine
+    class Dog : Canine, ISwim
     {
+        new string Food { get; set; } = "kibble";
         new int Cute { get; set; } = 5;
         new int Noble { get; set; } = 6;
 
@@ -22,6 +23,12 @@ namespace OOP_Examples.Classes.zoo
         public override void Bury()
         {
             Console.WriteLine("Hooooooooooooww!");
+        }
+
+        String ISwim.CanSwim()
+        {
+            Console.WriteLine("I can swim, sort-of.");
+            return "I can swim, sort-of";
         }
     }
 }

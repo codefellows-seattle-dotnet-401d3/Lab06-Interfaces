@@ -14,6 +14,7 @@ namespace OOP_Examples.Classes.zoo
             Penguin penguin = new Penguin();
             Chamilion chamilion = new Chamilion();
             Wolf wolf = new Wolf();
+            Dog dog = new Dog();
 
             Console.WriteLine("The ape says:");
             ape.Speak();
@@ -41,7 +42,15 @@ namespace OOP_Examples.Classes.zoo
             wolf.Speak();
             Console.WriteLine("And when somebody dies he says:");
             wolf.Bury();
-            
+            Console.WriteLine("The dog says:");
+            dog.Speak();
+            // I can't get either version to work.
+            //Console.WriteLine($"And when he approaches a swimming pool, he says:{dog.ISwim.CanSwim}");  // "'Dog' does not contain a definition for 'ISwim' and no extension method 'ISwim' accepting a first argument of type 'Dog' could be found"
+            //Console.WriteLine($"And when he approaches a swimming pool, he says:{dog.CanSwim}"); // "'Dog does not contain a definition for 'CanSwim' and no extension method 'CanSwim' accepting a first argument of type 'Dog' could be found"
+            Console.WriteLine($"And when he approaches a swimming pool, he says:");
+            //dog.ISwim.CanSwim(); // similar error messages to above
+            //dog.CanSwim();
+            //dog.CanSwim;
         }
     }
 }
