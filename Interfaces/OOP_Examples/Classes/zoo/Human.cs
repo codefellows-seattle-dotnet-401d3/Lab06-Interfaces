@@ -2,7 +2,7 @@
 
 namespace OOP_Examples.Classes.zoo
 {
-	class Human : Primate
+	class Human : Primate, IFly
 	{
         new string Food { get; set; } = "everything";
         public Sleep HumanSleep { get; set; } = Sleep.night;
@@ -25,6 +25,11 @@ namespace OOP_Examples.Classes.zoo
         public override void Bury()
         {
             Console.WriteLine("Go to the funeral home");
+        }
+
+        public string CanFly()
+        {
+            return "I can fly, in an airplane.";
         }
     }
 
