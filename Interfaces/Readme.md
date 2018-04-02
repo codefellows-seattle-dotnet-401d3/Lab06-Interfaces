@@ -8,7 +8,8 @@ Tiger Hsu
 2.0.0 
 
 ## Overview
-So in my example I will be showing is about pokemon, each pokemon Character has is its own Class. Since interfaces allows for a method to be used across different classes, this is really important. Since the pokemon are need a parent class to override each of the 
+So in my example I will be showing is about pokemon, each pokemon Character has is its own Class. Since interfaces allows for a method to be used across different classes, this is really important. Since the pokemon are need a parent class to gain methods from a hierarcy structure, Interfaces allow methods to be shared across different classes.
+In my diagram, the attack swift if being utilized by three diffrent pokemon, swift is a method shared by these classes
 
 ## Getting Started
 - Fork this repo / or clone this repo
