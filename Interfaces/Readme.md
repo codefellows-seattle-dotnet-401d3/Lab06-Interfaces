@@ -20,7 +20,7 @@ In my diagram, the attack swift if being utilized by three diffrent pokemon, swi
 
 ## Example
 
-![alt text](/Interfaces/PokeMan - Copy.jpg)
+![alt text](/Interfaces/Interface.jpg)
 
 <!-- Show them what looks like and how how to use the application.  -->
 
