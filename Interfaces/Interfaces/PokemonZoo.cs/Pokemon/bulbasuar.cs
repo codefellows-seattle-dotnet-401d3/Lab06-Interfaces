@@ -6,7 +6,7 @@ using Interfaces.PokemonZoo.cs;
 
 namespace PokemonZoo.cs.NewFolder
 {
-    class bulbasuar : Planttype, IStartingPokemon
+    class bulbasuar : Planttype, IStartingPokemon , ISwiftAttack
     {
         //bulbasusar is the concrete level
         public override string Attack { get; set; } = "Water Cannon";
@@ -16,6 +16,11 @@ namespace PokemonZoo.cs.NewFolder
         public string GivenPokemon()
         {
             return "Professor Gary Gave ash a Bulbasaur";
+        }
+
+        public string SwfiftAttack()
+        {
+            return"Bulbasur dodges the enemy";
         }
     }
 }
