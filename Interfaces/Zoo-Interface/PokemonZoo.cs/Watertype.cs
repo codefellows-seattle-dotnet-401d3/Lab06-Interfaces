@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-    abstract class Watertype : Pokemon, ICatchable
+   public abstract class Watertype : Pokemon, ICatchable
     {
         //Properties for water type Pokemon
         public override string Weakness { get; set; } = "Plants";

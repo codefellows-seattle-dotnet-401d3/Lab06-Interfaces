@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-    abstract class Pokemon
+    public abstract class Pokemon
     {
         //properties of all the pokemon
         public abstract string Name { get; set; }

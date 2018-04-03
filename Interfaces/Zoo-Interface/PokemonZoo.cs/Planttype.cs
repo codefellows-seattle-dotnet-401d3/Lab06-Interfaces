@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-   abstract class Planttype : Pokemon, ICatchable
+   public abstract class Planttype : Pokemon, ICatchable
     {
         public override string Attack { get; set; } = "Vine Whip";
         public override int Health { get; set; } = 200;

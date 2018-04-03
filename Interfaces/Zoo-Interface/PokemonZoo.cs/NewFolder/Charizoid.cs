@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-    class Charizoid :Firetype, ICatchable
+    public class Charizoid :Firetype, ICatchable
     {
         public override string Attack { get; set; } = "Flame Thrower";
         public override string Name { get; set; } = "Charizoid";

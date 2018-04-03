@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs.NewFolder
 {
-    class Picachu :Pokemon
+    public class Picachu :Pokemon
     {
         public override string Name { get; set; } = "picahu";
         public override int Health { get; set; } = 100;

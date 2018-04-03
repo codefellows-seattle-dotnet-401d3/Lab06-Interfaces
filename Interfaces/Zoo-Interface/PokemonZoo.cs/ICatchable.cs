@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-    interface ICatchable
+    public  interface ICatchable
     {
         string Catch();
     }
