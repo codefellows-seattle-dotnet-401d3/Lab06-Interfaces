@@ -9,7 +9,7 @@ Tiger Hsu
 
 ## Overview
 So in my example I will be showing is about pokemon, each pokemon Character has is its own Class. Since interfaces allows for a method to be used across different classes, this is really important. Since the pokemon are need a parent class to gain methods from a hierarcy structure, Interfaces allow methods to be shared across different classes.
-In my diagram, the attack swift if being utilized by three diffrent pokemon, swift is a method shared by these classes
+In my diagram, the Interface catchable is being implemnted by all pokemon except Picahcu. The Interface professor oak is only being implimented by 3 pokemon instead of all 7. 
 
 ## Getting Started
 - Fork this repo / or clone this repo
@@ -18,9 +18,11 @@ In my diagram, the attack swift if being utilized by three diffrent pokemon, swi
 - Open this file name 
 - Select run program.cs
 
-## Example
-
+## Diagram
 ![alt text](/Interfaces/Interface1.jpg)
+
+## Example
+![alt text](/Interfaces/Interfaces.JPG)
 
 <!-- Show them what looks like and how how to use the application.  -->
 
