@@ -14,7 +14,7 @@ namespace PokemonTest
         }
 
         [Fact]
-        public void MaekSquritle()
+        public void MakeSquritle()
         {
             Squritle squritle = new Squritle();
             Assert.Equal(50, squritle.Health);
@@ -26,5 +26,20 @@ namespace PokemonTest
             Squritle squritle = new Squritle();
             Assert.Equal("Plants", squritle.Weakness);
         }
+
+        [Fact]
+        public void MakeCharzoid()
+        {
+            Charizoid charizoid = new Charizoid();
+            Assert.Equal(500, charizoid.Health);
+        }
+
+        [Fact]
+        public void CheckCharzoidAttack()
+        {
+            Charizoid charizoid = new Charizoid();
+            Assert.Equal("Flame Thrower", charizoid.Attack);
+        }
+
     }    
 }
