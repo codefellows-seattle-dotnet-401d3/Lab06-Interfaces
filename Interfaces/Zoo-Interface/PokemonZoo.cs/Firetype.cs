@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-    abstract class Firetype : Pokemon , ICatchable
+    public abstract class Firetype : Pokemon , ICatchable
     {
         //Firetype properties
         public override string Weakness { get; set; } = "This pokemon weakness is Water";

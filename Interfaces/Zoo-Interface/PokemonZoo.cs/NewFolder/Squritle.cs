@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-    class Squritle: Watertype , IProfessorGary
+    public class Squritle: Watertype , IProfessorGary
     {
         public override string Attack { get; set; } = "water gun";
         public override string Name { get; set; } = "Squritle";

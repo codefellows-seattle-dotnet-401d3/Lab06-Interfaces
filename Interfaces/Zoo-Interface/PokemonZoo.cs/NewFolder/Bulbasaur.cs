@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs.NewFolder
 {
-    class Bulbasuar : Planttype , ICatchable, IProfessorGary
+  class Bulbasuar : Planttype , ICatchable, IProfessorGary
     {
         //bulbasusar is the concrete level
         public override string Attack { get; set; } = "Water Cannon";

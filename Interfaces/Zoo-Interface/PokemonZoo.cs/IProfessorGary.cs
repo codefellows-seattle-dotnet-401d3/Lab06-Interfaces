@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonZoo.cs
 {
-    interface IProfessorGary
+    public interface IProfessorGary
     {
         string Original();
     }
