@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Sky
+    public class Sky
     {
         public string Name { get; set; }
 

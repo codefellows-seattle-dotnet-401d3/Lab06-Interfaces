@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Interfaces
 {
-    interface ISwim
+    public interface ISwim
     {
         string Name { get; set; }
 

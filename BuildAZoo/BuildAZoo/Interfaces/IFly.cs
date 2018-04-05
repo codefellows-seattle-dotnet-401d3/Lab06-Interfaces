@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Interfaces
 {
-    interface IFly
+    public interface IFly
     {
         string Name { get; set; }
 
