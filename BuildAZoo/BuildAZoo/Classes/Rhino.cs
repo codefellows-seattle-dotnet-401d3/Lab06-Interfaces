@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Rhino : Mammal
+    public class Rhino : Mammal
     {
         public override int NumberOfLegs { get; set; } = 4;
         public override bool Carnivore { get; set; } = false;

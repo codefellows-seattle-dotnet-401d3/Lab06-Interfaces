@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Eagle : Avian, Interfaces.IFly
+    public class Eagle : Avian, Interfaces.IFly
     {
         public override int NumberOfLegs { get; set; } = 2;
         public override bool Carnivore { get; set; } = true;

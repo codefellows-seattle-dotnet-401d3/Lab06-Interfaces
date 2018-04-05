@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Water
+    public class Water
     {
         public string Name { get; set; }
 

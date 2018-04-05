@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    abstract class Mammal : Animal
+    public abstract class Mammal : Animal
     {
         public abstract string FurColor { get; set; }
         public abstract bool HasHorns { get; set; }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    class Python : Snake
+    public class Python : Snake
     {
         public string Name { get; set; } = "python";
 

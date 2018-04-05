@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BuildAZoo.Classes
 {
-    abstract class Avian : Animal
+    public abstract class Avian : Animal
     {
         public virtual bool HasWings { get; set; } = true;
 
